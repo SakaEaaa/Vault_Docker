@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YvACPRCgiNsY0ca8bkz8m4uuAC6bVPZ85iZ2itRNfNOntckM3B7K5Et5Qs+DyP+Bso10wQn0L8p4eX6P+9Qreg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saka9\\OneDrive\\Skrivebord\\EAAA(2023-2027)\\4.semester\\IT Arkitektur & Infrastruktur\\Modul 10\\SecretsApp\\SecretsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saka9\\.nuget\\packages\\vaultsharp\\1.17.5.1\\vaultsharp.1.17.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
