@@ -13,7 +13,7 @@ httpClientHandler.ServerCertificateCustomValidationCallback =
 // Initialize one of the several auth methods.
 IAuthMethodInfo authMethod =
 new TokenAuthMethodInfo("00000000-0000-0000-0000-000000000000");
-// Initialize settings. You can also set proxies, custom delegates etc. here.
+// Initialize settings. You can also set proxies, custom delegates etc. here 1.
 var vaultClientSettings = new VaultClientSettings(EndPoint, authMethod)
 {
     Namespace = "",
