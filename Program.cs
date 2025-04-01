@@ -32,10 +32,17 @@ try
 {
     Secret<SecretData> kv2Secret = await vaultClient.V1.Secrets.KeyValue.V2
     .ReadSecretAsync(path: "passwords", mountPoint: "secret");
+
+    Secret<SecretData> kv2Secret1 = await vaultClient.V1.Secrets.KeyValue.V2
+   .ReadSecretAsync(path: "Brugernavn", mountPoint: "secret");
+
     var minkode = kv2Secret.Data.Data["hnrk"];
+    var minkode1 = kv2Secret1.Data.Data["saka"];
     Console.WriteLine($"Henriks password er: {minkode}");
+    Console.WriteLine($"Sakariyes brugernavn er: {minkode1}");
 }
 catch (Exception e)
 {
     Console.WriteLine("Noget gik galt: " + e.InnerException.Message);
 }
+
